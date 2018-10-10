@@ -128,4 +128,8 @@
  128 I2O3      PHOTON    OIO       IO                      1.000 /I2O3  /
  129 IBr       PHOTON    I         Br                      1.000 /IBr   /
  130 ICl       PHOTON    I         Cl                      1.000 /ICl   /
+ 131 NITs      PHOTON    HNO2                              1.000 /HNO3  /
+ 132 NITs      PHOTON    NO2                               1.000 /HNO3  /
+ 133 NIT       PHOTON    HNO2                              1.000 /HNO3  /
+ 134 NIT       PHOTON    NO2                               1.000 /HNO3  /
 9999

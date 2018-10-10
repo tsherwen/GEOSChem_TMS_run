@@ -2,10 +2,10 @@ GEOS-CHEM UNIT TEST SIMULATION: geosfp_4x5_standard
 ------------------------+------------------------------------------------------
 %%% SIMULATION MENU %%% :
 Start YYYYMMDD, hhmmss  : 20130101 000000
-End   YYYYMMDD, hhmmss  : 20150101 000000
+End   YYYYMMDD, hhmmss  : 20140101 000000
 Run directory           : ./
 Input restart file      : GEOSChem_restart.YYYYMMDDhhmm.nc
-Root data directory     : /work/data/GEOS//ExtData
+Root data directory     : /work/data/GEOS/ExtData
  => GEOS-FP subdir      : GEOS_FP/YYYY/MM/
  => MERRA2  subdir      : MERRA2/YYYY/MM/
 Global offsets I0, J0   : 0 0
@@ -231,6 +231,11 @@ Calc. strat. aero. OD?  : T
 Enhance BC Absorption?  : T
  => hydrophilic BC      : 1.5
  => hydrophobic BC      : 1.0
+Photolyse nitrate aer.? : T
+ => NIT Jscale (JHNO3)  : 0
+ => NITs Jscale (JHNO3) : 100
+ => % channel A (HONO)  : 0.667
+ => % channel B (NO2)   : 0.333
 ------------------------+------------------------------------------------------
 %%% DEPOSITION MENU %%% :
 Turn on Dry Deposition? : T
@@ -343,7 +348,7 @@ ND66: DAO 3-D fields    : 72   all
 ND67: DAO 2-D fields    : 72   all
 ND68: Airmass/Boxheight : 72   all
 ND69: Surface area      :  1   all
-ND70: Debug output      :  0   all
+ND70: Debug output      : 99   all
 ND71: Hourly max ppbv   :  0   2
 ND72: Radiative output  :  0   all
 ND73: ISORROPIA         :  0   all
